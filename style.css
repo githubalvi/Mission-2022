@@ -1,0 +1,27 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding-left: 100px;
+    margin-top: 5%;
+}
+h1 {
+    font-size: 50px;
+}
+.Mission {
+    color: orange;
+    font-size: 50px;
+}
+.top-1 {
+    display: flex;
+
+}
+
+.top-half{
+    width: 50%;
+}
+.top-half img{
+    width: 100%;
+}
+#person{
+    width: 50%;
+}
