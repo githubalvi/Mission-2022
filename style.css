@@ -1,27 +1,190 @@
-body {
+*{
     font-family: 'Poppins', sans-serif;
-    margin:0;
-    padding-left: 100px;
-    margin-top: 5%;
 }
-h1 {
-    font-size: 50px;
+button{
+    padding: 15px 20px;
+    color: rgb(247, 238, 238);
+    background-color: #FF5959;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+
 }
-.Mission {
-    color: orange;
-    font-size: 50px;
+.side_line{
+    width: 25px;
 }
-.top-1 {
+.top_header_img{
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-
+}
+.top_header{
+    width: 60%;
+    float: left;
+    margin-top: 140px;
+    
 }
 
-.top-half{
-    width: 50%;
+
+.top_header h1{
+    font-size: 70px;
+    color: #000;
+    font-weight: bolder;
+
 }
-.top-half img{
-    width: 100%;
+.top_header p{
+    font-size: 22px;
+    padding: 0px 200px 0px 0px;
 }
-#person{
-    width: 50%;
+.top_img{
+    width: 40%;
+    float: right;
 }
+.top_img img{
+    width: 580px;
+    height: 100%;
+   
+}
+.My-Mission-2022{
+    width: 80%;
+    margin: 0 auto;
+}
+h2.my-mission {
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #000;
+}
+.box_arey{
+    margin-bottom: 25px;
+
+}
+.my-mission{
+    font-size: 25px;
+    color: royalblue;
+}
+
+.box_arey {
+    display: inline-flex;
+    padding: 15
+}
+.box_1 img,.box_2 img,.box_3 img{
+    width: 190px;
+}
+.box_1,.box_2,.box_3 {
+    padding: 50px;
+    background-color: #EDF5F6;
+    margin: 17px;
+    border-radius: 20px;
+    
+}
+
+
+/* ---------------------- */
+.Develop_Without_Limits{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+}
+
+.develop{
+    width: 40%;
+    float: left;
+}
+.without_limits{
+    width: 60%;
+    float: left;
+}
+/* ----------------- */
+.Know_our_Global_Community{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 150px;
+}
+.Know_our h3,.without_limits h3{
+    font-size: 51px;
+    font-weight: 800;
+    margin: 0px;
+}
+.Know_our p,.without_limits p{
+    font-size: 24px;
+}
+.coding_img{
+    width: 550px;
+}
+.Know_our{
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.Global_Community{
+    width: 40%;
+    float: right;
+}
+/* ---------- Section 5:  Ask Question -------------- */
+.form-container {
+    min-width: 400px;
+    background:#EDF5F6;
+    border-radius: 16px;
+    padding: 40px;
+    box-shadow: 10px 20px 30px rgba(255, 145, 0, 0.164);
+  }
+  .form-container .form_c1{
+    position: absolute;
+    z-index: -1;
+    top: -100px;
+    left: -100px;
+  }
+  
+  
+  #askQuestion .inner-content {
+    padding-left: 72px;
+  }
+  form .form-control {
+    width: 90%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 16px;
+  }
+  form .form-control:active {
+    border: none;
+  }
+.btn-primary {
+    margin-top: 30px;
+    border: none;
+    background-color: orangered;
+    border: orangered;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    
+        
+    
+  }
+  
+  
+  /* --------------Footer section -------------  */
+  #footer {
+    background-color: #0b0d17;
+    margin-top: 50px;
+  }
+  #footer h2 {
+    font-family: "Lobster", cursive;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.5px;
+    color: white;
+  }
+  #footer p {
+    color: white;
+  }
+  #footer .content-area {
+    padding: 46px 0px;
+    text-align: center;
+  }
+  
